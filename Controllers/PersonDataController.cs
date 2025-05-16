@@ -15,7 +15,7 @@ namespace MyFirstTestProject.Controllers
             _personService = personService;
         }
 
-
+        // these are the web APi
 
         [HttpGet("GetAllPersons")]
         public IActionResult GetAllPersons()
